@@ -1,0 +1,346 @@
+/* Container for the whole section */
+
+@font-face {
+    font-family: 'fontscorecomttwcenmt';
+    src: local('fontscorecomttwcenmt'), url('./fontscorecomttwcenmt.woff') format('woff'), url('./fontscorecomttwcenmt.ttf') format('truetype');
+}
+
+.featured-plans {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 50px;
+    margin-top: -10%;
+}
+
+.featured-title {
+    margin-bottom: 0%;
+}
+
+.featured-title a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    /* Inherit text color */
+}
+
+.featured-title:hover {
+    color: rgb(118, 126, 12);
+    /* Change color on hover */
+}
+
+.featured-title:hover {
+    color: rgb(118, 126, 12);
+    /* Change color on hover */
+}
+
+.explore-all-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: -10px;
+    margin-left: 90%;
+    /* Space from the other elements */
+}
+
+
+/* Styling for the link inside the box */
+
+.box-link a {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: inherit;
+    margin-bottom: 50%;
+    /* Inherit text color */
+}
+
+.box-link {
+    margin-bottom: 40%;
+    /* Inherit text color */
+}
+
+
+/* Hover effect for the link */
+
+.box-link:hover {
+    color: rgb(118, 126, 12);
+    background-color: rgb(255, 0, 0);
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    /* Change color on hover */
+}
+
+.explore-all-container:hover {
+    color: rgb(63, 200, 224);
+    background-color: rgb(255, 0, 0);
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    /* Change color on hover */
+}
+
+
+/* Title styling */
+
+
+/* Box container for horizontal alignment */
+
+
+/* Box container for horizontal alignment */
+
+.box-container {
+    display: flex;
+    padding-top: 3%;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+    /* Reduced gap between the boxes */
+}
+
+
+/* Individual box styling */
+
+.box {
+    position: relative;
+    width: 230px;
+    height: 250px;
+    padding: 16px;
+    border-radius: 5px;
+}
+
+.box-icon {
+    position: absolute;
+    bottom: 30px;
+    right: 15px;
+    font-size: 1.5rem;
+    padding: 0px;
+    padding-bottom: -1px;
+    /* Space around the icon */
+    border-radius: 5px;
+    /* Rounded corners for the button */
+    transition: background-color 0.3s ease;
+    /* Smooth transition for hover effect */
+    text-decoration: none;
+    /* Remove underline from link */
+}
+
+
+/* Black box icon styling */
+
+.black-icon {
+    padding-left: -35px;
+    width: 9%;
+    height: 7.5%;
+    bottom: 18%;
+    background-color: rgb(243, 234, 234);
+    /* Background color of the button */
+}
+
+.black-icon .bi {
+    padding-top: -10px;
+    margin-left: -9%;
+    color: rgb(7, 7, 7);
+    /* Color of the icon */
+}
+
+
+/* White box icon styling */
+
+.white-icon {
+    background-color: rgb(10, 10, 10)
+    /* Background color of the button */
+}
+
+.white-icon .bi {
+    color: rgb(238, 235, 235);
+    /* Color of the icon */
+}
+
+
+/* Hover effect for the icon button */
+
+.box-icon:hover {
+    background-color: rgb(26, 40, 235);
+    /* Change background color on hover */
+}
+
+.box-text {
+    color: #646464e7;
+    font-size: 0.69rem;
+    padding: 1%;
+    font-family: Tw Cen MT;
+    margin-top: -40%;
+    font-weight: bold;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100%;
+    /* Centers the text vertically */
+}
+
+
+/* Styling for 'Money Momentum' bold black text */
+
+.box-subtitle {
+    font-family: Tw Cen MT;
+    font-size: 1.3rem;
+    color: black;
+    font-weight: bold;
+    margin-top: -45%;
+}
+
+
+/* Styling for the paragraph below 'Money Momentum' */
+
+.box-paragraph {
+    font-family: Tw Cen MT;
+    font-size: 0.7rem;
+    color: black;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+
+/* Styling for the line below the text */
+
+.box-line {
+    width: 100%;
+    /* Makes the line thinner and centered */
+    height: 1px;
+    background-color: #646464e7;
+    margin: 10px auto 0;
+    /* Center the line and add some spacing */
+}
+
+.box-cagr {
+    font-family: Tw Cen MT;
+    font-size: 0.9rem;
+    color: #646464e7;
+    /* Same color as box-text */
+    margin-top: 15px;
+}
+
+
+/* Styling for '8.20%' */
+
+.box-cagr-value {
+    font-family: Tw Cen MT;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #000000e7;
+    /* Matches box-text color */
+    margin-top: 10px;
+}
+
+.box-cagr-value-black {
+    font-family: Tw Cen MT;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #ffffffe7;
+    /* Matches box-text color */
+    margin-top: 10px;
+}
+
+
+/* Styling for the link inside the box */
+
+.box-line-footer {
+    width: 100%;
+    /* Makes the line thinner and centered */
+    height: 1px;
+    background-color: #646464e7;
+    margin: 15px auto 0;
+    margin-top: 3%;
+    /* Center the line and add some spacing */
+}
+
+.terms-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.terms-link,
+.customer-link {
+    text-decoration: none;
+    color: #474747;
+    font-size: 0.9rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.terms-link:hover,
+.customer-link:hover {
+    color: rgb(118, 126, 12);
+    /* Hover color */
+}
+
+.dot {
+    margin: 0 10px;
+    font-size: 1.2rem;
+    color: #000;
+}
+
+
+/* Style for the right-facing arrow at the bottom-right */
+
+.arrow-container {
+    position: relative;
+    bottom: 30px;
+    right: 50px;
+    margin-left: 100%;
+}
+
+.arrow-link {
+    text-decoration: none;
+}
+
+.arrow-link a:hover {
+    color: rgb(4, 22, 107);
+    background-color: aqua;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.arrow-icon {
+    width: 120px;
+    /* Slightly longer for the oval shape */
+    height: 100px;
+    fill: white;
+    stroke: black;
+    border-radius: 20px;
+    /* Gives an oval-like appearance */
+}
+
+.arrow-icon :hover {
+    color: rgb(12, 29, 126);
+    background-color: aqua;
+}
+
+.arrow-container :hover {
+    color: rgb(4, 22, 107);
+    background-color: aqua;
+}
+
+
+/* Media Queries for responsiveness */
+
+@media (max-width: 768px) {
+    .box-container {
+        flex-direction: column;
+        /* Stack boxes vertically on smaller screens */
+    }
+    .box {
+        width: 100%;
+        /* Full width on smaller screens */
+        margin-bottom: 1rem;
+        /* Add space between stacked boxes */
+    }
+    .featured-title a {
+        font-size: 1.2rem;
+        /* Adjust font size */
+    }
+}

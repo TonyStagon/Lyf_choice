@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Bell MT';
+    src: url('path/to/bellmt.woff2') format('woff2'), /* Update the path and format */
+    url('path/to/bellmt.woff') format('woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
